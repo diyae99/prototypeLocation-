@@ -24,6 +24,8 @@ La compilation produit le dossier `dist`. Le projet utilise React, TypeScript, T
 
 ## Utilisation
 
+Le tableau de bord propose un planning par date. Sélectionner « Voitures à sortir » ou « Voitures à récupérer » pour afficher les mouvements restants du jour, puis ouvrir la réservation ou le contrat depuis sa carte. Les retours futurs des réservations confirmées et des contrats préparés sont inclus.
+
 Créer un client, enregistrer une réservation, puis la convertir en contrat. Les paiements, la caution et les états du véhicule au départ et au retour se gèrent depuis le contrat. Le bouton « Générer une facture » crée un document distinct lié au contrat. « Imprimer / PDF » ouvre l’impression du navigateur : choisir « Enregistrer au format PDF ».
 
 Les paramètres permettent de modifier le nom et les coordonnées de l’agence. Les données fictives sont créées au premier lancement. « Réinitialiser la démo » les restaure après confirmation.

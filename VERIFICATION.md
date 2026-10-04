@@ -47,3 +47,13 @@ L’impression physique et la validation fiscale ne font pas partie de ces contr
 - Les 7 tests métier passent avec `node --import tsx --test src/domain.test.ts`.
 - Aperçu contrôlé : tableau de bord présent et aucune erreur JavaScript signalée.
 - Archive source vérifiée : fichiers de configuration, verrouillage des dépendances et guide de lancement inclus ; dépendances installées, résultats de compilation, caches et secrets exclus.
+
+## Planning du tableau de bord — 4 octobre 2026
+
+- Remplacement des deux blocs de suivi par un planning journalier avec date, navigation et bouton « Aujourd’hui ».
+- Cartes de sorties et récupérations, compteurs séparés, liens vers réservation ou contrat, tri horaire et état vide.
+- Retours futurs des réservations confirmées et des contrats préparés/en cours inclus ; annulations, mouvements terminés et réservations déjà converties exclus.
+- Les indicateurs, alertes, soldes et actions rapides sont conservés. Aucun changement du schéma, de la clé de stockage ou des données enregistrées.
+- `npm run build` et `npm test` réussissent : 15 tests métier, dont 8 sur le planning, ses transitions et la navigation de date.
+- Navigateur : vérification des jours précédent/suivant, de la saisie de date, du bouton « Aujourd’hui », des filtres, des états vides et de l’ouverture des réservations/contrats. Les retours d’une réservation et d’un contrat sont présentés dans l’ordre à 14 h et 18 h ; un contrat préparé apparaît aussi à sa date de retour future.
+- Affichages ordinateur (1440 px) et téléphone (390 px) inspectés ; pas de débordement horizontal global ni d’erreur JavaScript constatée.
